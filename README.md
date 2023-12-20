@@ -61,14 +61,14 @@
       | user_id | int  |  购物车所属用户id  |
       |   num   | int  | 单件商品的购买数量 |
 
-	+ user
+    + user
 
-    |     字段      |    类型     |    描述    |
-    | :-----------: | :---------: | :--------: |
-    |      id       |     int     | 主键，自增 |
-    |   username    | varchar(20) |  用户昵称  |
-    |   password    | varchar(20) |  用户密码  |
-    | user_order_id |     int     | 用户订单id |
+      |     字段      |    类型     |    描述    |
+      | :-----------: | :---------: | :--------: |
+      |      id       |     int     | 主键，自增 |
+      |   username    | varchar(20) |  用户昵称  |
+      |   password    | varchar(20) |  用户密码  |
+      | user_order_id |     int     | 用户订单id |
   
   + user_order
   

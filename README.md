@@ -23,16 +23,64 @@
 
 + 数据库
   + book_store
+  
 + 表
   + book
-  + user
   + clazz
-  + ...
+  + car
+  + user
+  + user_order
+  + order
+  
 + 表结构
   + book
-    | id    | clazz | img   | depict | price | author |
-    | :---: | :---: | :---: | :---:  | :---: | :---:  |
-  + ...
+    | 字段   | 类型       | 描述       |
+    | :---: | :---:      | :---:     |
+    |  id   | int        | 主键，自增 |
+    |  clazz_id  |  	varchar(6)  |  用于描述书籍的类型 |
+    | img   | varchar(200) | 书籍的图片地址 |
+    | depict    | varchar(50)    |  用于存放书籍描述信息 |
+    | price      | varchar(8) | 用于存放书籍的价格|
+    | author  | varchar(80) | 用于存放书籍的作者名称 |
     
+  + clazz
+    
+    |   字段    |    类型     |    描述    |
+    | :-------: | :---------: | :--------: |
+    |    id     |     int     | 主键，自增 |
+    |   name    | varchar(20) | 类别的名称 |
+    | father_id |     int     | 父类别的id |
+    |  son_id   |     int     | 子类别的id |
+    
+   + car
+    
+      |  字段   | 类型 |        描述        |
+      | :-----: | :--: | :----------------: |
+      |   id    | int  |     主键，自增     |
+      | book_id | int  |       书籍id       |
+      | user_id | int  |  购物车所属用户id  |
+      |   num   | int  | 单件商品的购买数量 |
 
+	+ user
 
+    |     字段      |    类型     |    描述    |
+    | :-----------: | :---------: | :--------: |
+    |      id       |     int     | 主键，自增 |
+    |   username    | varchar(20) |  用户昵称  |
+    |   password    | varchar(20) |  用户密码  |
+    | user_order_id |     int     | 用户订单id |
+  
+  + user_order
+  
+      |   字段   | 类型 |     描述     |
+      | :------: | :--: | :----------: |
+      |    id    | int  |  主键，自增  |
+      | order_id | int  | 订单子项的id |
+      
+  + order 
+
+    |  字段   | 类型 |    描述    |
+    | :-----: | :--: | :--------: |
+    |   id    | int  | 主键，自增 |
+    | book_id | int  |   书籍id   |
+    |   num   | int  |  书籍数目  |

@@ -12,7 +12,7 @@
 			</div>
 			
 			<ul id="ranklist-items">
-				<li class="ranklist-item" v-on:mouseenter="enterhover($event)">
+				<li class="ranklist-item" v-on:mouseenter="enterhover($event)" v-on:mouseover="overhover($event)">
 					<p class="ranklist-item-sp">奇迹湖(汉英对照)(精)</p>
 					<div class="ranklist-item-rank">
 						1
@@ -110,10 +110,18 @@
 			 enterhover(event){
 				 
 				// alert("hi")
-				console.log( event.currentTarget )
+				// console.log( event.currentTarget )
 				event.currentTarget.getElementsByClassName("ranklist-item-hdiv")[0].style.display="flex"
 				event.currentTarget.getElementsByClassName("ranklist-item-sp")[0].style.display="none"
-			}
+
+			},
+
+      // overhover(event){
+      //   console.log(event.currentTarget)
+      //   event.currentTarget.getElementsByClassName("ranklist-item-hdiv")[0].style.display="none"
+      //   event.currentTarget.getElementsByClassName("ranklist-item-sp")[0].style.display="block"
+      // }
+
 		}
 		
 	}

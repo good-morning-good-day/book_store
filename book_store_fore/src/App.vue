@@ -3,8 +3,11 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 	<PageHeader></PageHeader>
+    <Select></Select>
+    <Links></Links>
 	<router-view></router-view>
-	<PageTail></PageTail>
+    <PageTail></PageTail>
+
   </div>
 </template>
 
@@ -12,13 +15,17 @@
 import HelloWorld from './components/HelloWorld.vue'
 import PageHeader from '@/components/PageHeader.vue'
 import PageTail from '@/components/PageTail.vue'
+import Links from '@/components/Links.vue'
+import Select from "@/components/Select.vue";
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
 	PageHeader,
-	PageTail
+	PageTail,
+    Links,
+    Select
   }
 }
 </script>
@@ -36,7 +43,7 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  /* background-color: black; */
+
 
 }
 

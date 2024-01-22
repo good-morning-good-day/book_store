@@ -26,6 +26,17 @@ export default {
 	PageTail,
     Links,
     Select
+  },
+  watch:{
+    $route(to,from){
+       if(to.path == '/index'){
+         document.getElementById("muti-items").style.visibility="visible"
+       }else{
+         document.getElementById("muti-items").style.visibility="hidden"
+       }
+
+    }
+
   }
 }
 </script>

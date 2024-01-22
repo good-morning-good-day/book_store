@@ -2,7 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter);
 
-import Select from '@/pages/index'
+import Index from '@/pages/index'
+import List from '@/pages/list'
 
 
 export default new VueRouter({
@@ -14,8 +15,12 @@ export default new VueRouter({
 		},
 		{
 			path: "/index",
-			component: Select,
+			component: Index,
 		},
+		{
+			path: "/list",
+			component: List,
+		}
 		
 	]
 })

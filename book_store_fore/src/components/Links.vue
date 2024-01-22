@@ -231,6 +231,15 @@
 </template>
 
 <script>
+
+
+export default {
+  created() {
+
+    // console.log( document.getElementById("muti-items").style.visibility="visible")
+
+  }
+  }
 </script>
 
 <style>
@@ -298,7 +307,8 @@
   position: absolute;
   left: 0px;
   top: 50px;
-  /*display: none;*/
+  visibility: visible;
+  /*visibility: hidden;*/
 }
 
 .muti-item{

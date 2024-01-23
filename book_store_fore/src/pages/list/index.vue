@@ -221,32 +221,40 @@
     <div id="list-03">
       <div id="list-03-l">
         <div id="list-03-l-t">
-          <div>综合排序</div>
-          <div>
+          <div id="list-03-l-t-01">综合排序</div>
+          <div class="list-03-l-t-02">
             <p>销量</p>
             <svg t="1705961930204" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6152" width="14" height="14">
               <path d="M841.4 389.7l-329 569.8-329-569.8h178.7V65.6h300.5v324.1z" fill="#515151" p-id="6153"></path>
             </svg>
           </div>
-          <div>
+          <div class="list-03-l-t-02">
             <p>价格</p>
             <svg t="1705961930204" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6152" width="14" height="14">
               <path d="M841.4 389.7l-329 569.8-329-569.8h178.7V65.6h300.5v324.1z" fill="#515151" p-id="6153"></path>
             </svg>
           </div>
-          <div>
+          <div class="list-03-l-t-02">
             <p>上架时间</p>
             <svg t="1705961930204" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6152" width="14" height="14">
               <path d="M841.4 389.7l-329 569.8-329-569.8h178.7V65.6h300.5v324.1z" fill="#515151" p-id="6153"></path>
             </svg>
           </div>
-          <div>
-            <input type="text">
+          <div class="list-03-l-t-03">
+            <div class="list-03-l-t-03-inputDiv">
+              <span>￥</span>
+              <input type="text">
+            </div>
+
             <svg t="1705962216889" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7435" width="14" height="14">
               <path d="M96 512a32 32 0 0 1 32-32h768a32 32 0 0 1 0 64H128a32 32 0 0 1-32-32z" fill="#303133" p-id="7436"></path>
             </svg>
-            <input type="text">
-            <div>筛选</div>
+            <div class="list-03-l-t-03-inputDiv">
+              <span>￥</span>
+              <input type="text">
+            </div>
+
+            <div id="list-03-l-t-03-div">筛选</div>
           </div>
         </div>
         <div id="list-03-l-b">
@@ -261,22 +269,78 @@
         </div>
       </div>
       <div id="list-03-r">
-
+        <div id="list-03-r-l">
+          <svg t="1705963141148" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1490" width="14" height="14">
+            <path d="M838.6 484.7H578.5c-22.5 0-40.7-18.3-40.7-40.7V183.9c0-22.5 18.3-40.7 40.7-40.7h260.1c22.5 0 40.7 18.3 40.7 40.7V444c0 22.5-18.2 40.7-40.7 40.7zM578.5 170.8c-7.3 0-13.2 5.9-13.2 13.2v260c0 7.3 5.9 13.2 13.2 13.2h260.1c7.3 0 13.2-5.9 13.2-13.2V183.9c0-7.3-5.9-13.2-13.2-13.2H578.5zM838.6 880.4H578.5c-22.5 0-40.7-18.3-40.7-40.7V579.6c0-22.5 18.3-40.7 40.7-40.7h260.1c22.5 0 40.7 18.3 40.7 40.7v260.1c0 22.5-18.2 40.7-40.7 40.7zM578.5 566.5c-7.3 0-13.2 5.9-13.2 13.2v260.1c0 7.2 5.9 13.1 13.2 13.1h260.1c7.3 0 13.2-5.9 13.2-13.1V579.6c0-7.3-5.9-13.2-13.2-13.2H578.5zM444.1 484.7H184c-22.5 0-40.7-18.3-40.7-40.7V183.9c0-22.5 18.3-40.7 40.7-40.7h260.1c22.5 0 40.7 18.3 40.7 40.7V444c0 22.5-18.3 40.7-40.7 40.7zM184 170.8c-7.3 0-13.2 5.9-13.2 13.2v260c0 7.3 5.9 13.2 13.2 13.2h260.1c7.3 0 13.2-5.9 13.2-13.2V183.9c0-7.3-5.9-13.2-13.2-13.2H184zM444.1 880.4H184c-22.5 0-40.7-18.3-40.7-40.7V579.6c0-22.5 18.3-40.7 40.7-40.7h260.1c22.5 0 40.7 18.3 40.7 40.7v260.1c0 22.5-18.3 40.7-40.7 40.7zM184 566.5c-7.3 0-13.2 5.9-13.2 13.2v260.1c0 7.2 5.9 13.1 13.2 13.1h260.1c7.3 0 13.2-5.9 13.2-13.1V579.6c0-7.3-5.9-13.2-13.2-13.2H184z" fill="#2c2c2c" p-id="1491"></path>
+          </svg>
+          <font>大图</font>
+        </div>
+        <div id="list-03-r-r">
+          <svg t="1705963307028" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9710" width="14" height="14">
+            <path d="M374.272 440.832H127.488c-33.792 0-61.44-27.648-61.44-61.44V132.608c0-33.792 27.648-61.44 61.44-61.44h247.296c33.792 0 61.44 27.648 61.44 61.44v247.296c-0.512 33.792-27.648 60.928-61.952 60.928zM127.488 132.608v247.296h247.296V132.608H127.488zM762.88 492.032c-16.384 0-31.744-6.144-43.52-17.92l-174.592-174.592c-11.776-11.776-17.92-27.136-17.92-43.52s6.144-31.744 17.92-43.52l174.592-174.592c11.776-11.776 27.136-17.92 43.52-17.92s31.744 6.144 43.52 17.92l174.592 174.592c11.776 11.776 17.92 27.136 17.92 43.52s-6.144 31.744-17.92 43.52l-174.592 174.592c-11.776 11.776-27.136 17.92-43.52 17.92z m0-410.624L588.288 256 762.88 430.592 937.472 256 762.88 81.408zM374.272 952.832H127.488c-33.792 0-61.44-27.648-61.44-61.44v-247.296c0-33.792 27.648-61.44 61.44-61.44h247.296c33.792 0 61.44 27.648 61.44 61.44v247.296c-0.512 34.304-27.648 61.44-61.952 61.44z m-246.784-308.224v247.296h247.296v-247.296H127.488zM886.272 952.832h-247.296c-33.792 0-61.44-27.648-61.44-61.44v-247.296c0-33.792 27.648-61.44 61.44-61.44h247.296c33.792 0 61.44 27.648 61.44 61.44v247.296c0 34.304-27.136 61.44-61.44 61.44z m-246.784-308.224v247.296h247.296v-247.296h-247.296z" p-id="9711"></path>
+          </svg>
+          <font>小图</font>
+        </div>
       </div>
     </div>
     <ul id="list-04">
-      <div>
-        <svg t="1705963141148" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1490" width="14" height="14">
-          <path d="M838.6 484.7H578.5c-22.5 0-40.7-18.3-40.7-40.7V183.9c0-22.5 18.3-40.7 40.7-40.7h260.1c22.5 0 40.7 18.3 40.7 40.7V444c0 22.5-18.2 40.7-40.7 40.7zM578.5 170.8c-7.3 0-13.2 5.9-13.2 13.2v260c0 7.3 5.9 13.2 13.2 13.2h260.1c7.3 0 13.2-5.9 13.2-13.2V183.9c0-7.3-5.9-13.2-13.2-13.2H578.5zM838.6 880.4H578.5c-22.5 0-40.7-18.3-40.7-40.7V579.6c0-22.5 18.3-40.7 40.7-40.7h260.1c22.5 0 40.7 18.3 40.7 40.7v260.1c0 22.5-18.2 40.7-40.7 40.7zM578.5 566.5c-7.3 0-13.2 5.9-13.2 13.2v260.1c0 7.2 5.9 13.1 13.2 13.1h260.1c7.3 0 13.2-5.9 13.2-13.1V579.6c0-7.3-5.9-13.2-13.2-13.2H578.5zM444.1 484.7H184c-22.5 0-40.7-18.3-40.7-40.7V183.9c0-22.5 18.3-40.7 40.7-40.7h260.1c22.5 0 40.7 18.3 40.7 40.7V444c0 22.5-18.3 40.7-40.7 40.7zM184 170.8c-7.3 0-13.2 5.9-13.2 13.2v260c0 7.3 5.9 13.2 13.2 13.2h260.1c7.3 0 13.2-5.9 13.2-13.2V183.9c0-7.3-5.9-13.2-13.2-13.2H184zM444.1 880.4H184c-22.5 0-40.7-18.3-40.7-40.7V579.6c0-22.5 18.3-40.7 40.7-40.7h260.1c22.5 0 40.7 18.3 40.7 40.7v260.1c0 22.5-18.3 40.7-40.7 40.7zM184 566.5c-7.3 0-13.2 5.9-13.2 13.2v260.1c0 7.2 5.9 13.1 13.2 13.1h260.1c7.3 0 13.2-5.9 13.2-13.1V579.6c0-7.3-5.9-13.2-13.2-13.2H184z" fill="#2c2c2c" p-id="1491"></path>
-        </svg>
-        <font>大图</font>
-      </div>
-      <div>
-        <svg t="1705963307028" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9710" width="14" height="14">
-          <path d="M374.272 440.832H127.488c-33.792 0-61.44-27.648-61.44-61.44V132.608c0-33.792 27.648-61.44 61.44-61.44h247.296c33.792 0 61.44 27.648 61.44 61.44v247.296c-0.512 33.792-27.648 60.928-61.952 60.928zM127.488 132.608v247.296h247.296V132.608H127.488zM762.88 492.032c-16.384 0-31.744-6.144-43.52-17.92l-174.592-174.592c-11.776-11.776-17.92-27.136-17.92-43.52s6.144-31.744 17.92-43.52l174.592-174.592c11.776-11.776 27.136-17.92 43.52-17.92s31.744 6.144 43.52 17.92l174.592 174.592c11.776 11.776 17.92 27.136 17.92 43.52s-6.144 31.744-17.92 43.52l-174.592 174.592c-11.776 11.776-27.136 17.92-43.52 17.92z m0-410.624L588.288 256 762.88 430.592 937.472 256 762.88 81.408zM374.272 952.832H127.488c-33.792 0-61.44-27.648-61.44-61.44v-247.296c0-33.792 27.648-61.44 61.44-61.44h247.296c33.792 0 61.44 27.648 61.44 61.44v247.296c-0.512 34.304-27.648 61.44-61.952 61.44z m-246.784-308.224v247.296h247.296v-247.296H127.488zM886.272 952.832h-247.296c-33.792 0-61.44-27.648-61.44-61.44v-247.296c0-33.792 27.648-61.44 61.44-61.44h247.296c33.792 0 61.44 27.648 61.44 61.44v247.296c0 34.304-27.136 61.44-61.44 61.44z m-246.784-308.224v247.296h247.296v-247.296h-247.296z" p-id="9711"></path>
-        </svg>
-        <font>小图</font>
-      </div>
+        <li class="list-04-li">
+          <img src="@/../public/list-book-01.webp"/>
+          <span>大侦探福尔摩斯(40火中的青苔小学生版)</span>
+          <span>厉河</span>
+          <div class="list-04-li-price">
+            <span>￥19.00</span>
+          </div>
+        </li>
+      <li class="list-04-li">
+        <img src="@/../public/list-book-01.webp"/>
+        <span>大侦探福尔摩斯(40火中的青苔小学生版)</span>
+        <span>厉河</span>
+        <div>
+          <span>￥19.00</span>
+        </div>
+      </li>
+      <li class="list-04-li">
+        <img src="@/../public/list-book-01.webp"/>
+        <span>大侦探福尔摩斯(40火中的青苔小学生版)</span>
+        <span>厉河</span>
+        <div>
+          <span>￥19.00</span>
+        </div>
+      </li>
+      <li class="list-04-li">
+        <img src="@/../public/list-book-01.webp"/>
+        <span>大侦探福尔摩斯(40火中的青苔小学生版)</span>
+        <span>厉河</span>
+        <div>
+          <span>￥19.00</span>
+        </div>
+      </li>
+      <li class="list-04-li">
+        <img src="@/../public/list-book-01.webp"/>
+        <span>大侦探福尔摩斯(40火中的青苔小学生版)</span>
+        <span>厉河</span>
+        <div>
+          <span>￥19.00</span>
+        </div>
+      </li>
+      <li class="list-04-li">
+        <img src="@/../public/list-book-01.webp"/>
+        <span>大侦探福尔摩斯(40火中的青苔小学生版)</span>
+        <span>厉河</span>
+        <div>
+          <span>￥19.00</span>
+        </div>
+      </li>
+      <li class="list-04-li">
+        <img src="@/../public/list-book-01.webp"/>
+        <span>大侦探福尔摩斯(40火中的青苔小学生版)</span>
+        <span>厉河</span>
+        <div>
+          <span>￥19.00</span>
+        </div>
+      </li>
+
     </ul>
     <div id="list-05">
 
@@ -290,9 +354,9 @@ export default {
   name: "index",
   data(){
     return{
-      fiveReader:["普通成人","普通成人","普通成人","普通成人","普通成人","普通成人"],
+      fiveReader:["普通成人","普通成人","普通成人","普通成人","普通成人"],
       allReader:["普通成人","普通成人","普通成人","普通成人","普通成人","普通成人","普通成人","普通成人","普通成人","普通成人","普通成人","普通成人","普通成人","普通成人","普通成人"],
-      nowReader:["普通成人","普通成人","普通成人","普通成人","普通成人","普通成人"]
+      nowReader:["普通成人","普通成人","普通成人","普通成人","普通成人"]
     }
   },
 
@@ -324,7 +388,7 @@ export default {
 
   #list{
     width: 1200px;
-    height: 900px;
+    height: 1800px;
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
@@ -341,6 +405,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
+  background-color: white;
 }
 
   #list-01-l{
@@ -364,7 +429,7 @@ export default {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    background-color: #00ff33;
+    /*background-color: #00ff33;*/
   }
 
   #list-01-l-li >svg{
@@ -376,7 +441,7 @@ export default {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    background-color: #eaeaea;
+    /*background-color: #eaeaea;*/
     margin-left: 4px;
     padding-left: 10px;
     padding-right: 10px;
@@ -388,21 +453,24 @@ export default {
 
   #list-02{
     margin-top: 20px;
-    width: 1200px;
+    width: 1198px;
     /*height: 200px;*/
-    background-color: orange;
+    background-color: white;
+    border-left: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    border-right: 1px solid darkgray;
   }
 
   .list-02-line{
-    width: 1190px;
+    width: 1189px;
     /*height: 30px;*/
-    background-color: #ff6600;
+    /*background-color: #ff6600;*/
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: start;
     padding: 5px;
-    border: 1px solid darkgray;
+    border-top: 1px solid darkgray;
   }
   .list-02-line-l{
     width: 150px;
@@ -414,7 +482,7 @@ export default {
   .list-02-line-m{
     width: 900px;
     /*height: 30px;*/
-    background-color: #00ff33;
+    /*background-color: #00ff33;*/
     text-align: left;
     /*display: flex;*/
     /*flex-direction: row;*/
@@ -428,24 +496,25 @@ export default {
   }
   .list-02-line-m > li{
     width: 176px;
-    height: 30px;
+    /*height: 30px;*/
     list-style: none;
-    background-color: #eaeaea;
-    line-height: 30px;
+    /*background-color: #eaeaea;*/
+    line-height: 20px;
     display: inline;
     float: left;
   }
   .list-02-line-r{
     width: 150px;
-    height: 30px;
-    padding: 5px;
+    /*height: 30px;*/
+    /*padding: 5px;*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    /*background-color: #00ff33;*/
   }
   .list-02-line-r-item{
-    /*height: 20px;*/
+    height: 20px;
     width: 63px;
     display: flex;
     flex-direction: row;
@@ -471,6 +540,176 @@ export default {
     border: 1px solid darkgray;
     display: none;
   }
+
+  #list-03{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 20px;
+    background-color: white;
+  }
+  #list-03-l{
+    width: 450px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /*background-color: #cccccc;*/
+}
+  #list-03-l-t{
+    /*width: 800px;*/
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /*background-color: #cccccc;*/
+  }
+  #list-03-l-t-01{
+    width: 60px;
+    height: 30px;
+    background-color: #C62E2D;
+    text-align: center;
+    line-height: 30px;
+  }
+  .list-03-l-t-02{
+    /*width: 50px;*/
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .list-03-l-t-03{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .list-03-l-t-03-inputDiv{
+    width: 60px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid darkgray;
+  }
+  .list-03-l-t-03-inputDiv > input{
+    width: 50px;
+    height: 20px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right-color:darkgray;
+    outline: none;
+  }
+  .list-03-l-t-03 > svg{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+
+
+  #list-03-l-t-03-div{
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #C62E2D;
+    margin-left: 5px;
+  }
+
+
+  #list-03-l-b{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #list-03-l-b-l{
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #list-03-l-b-r{
+    width: 150px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+  }
+  #list-03-l-b-r > input{
+    width: 90px;
+    height: 20px;
+    border-style: none;
+    outline: none;
+    text-align:center;
+    border: 1px solid darkgray;
+  }
+  #list-03-l-b-r > div{
+
+    width: 50px;
+    height: 20px;
+    background-color: #C62E2D;
+  }
+  #list-03-r{
+    width: 120px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: white;
+  }
+  #list-03-r-l{
+    height: 30px;
+    width: 59px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  #list-03-r-r{
+    height: 30px;
+    width: 59px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:  #cccccc;
+    border:1px solid darkgray;
+  }
+
+  #list-04{
+    background-color: white;
+    margin-top: 20px;
+    width: 1200px;
+    height: 1200px;
+    background-color: #C62E2D;
+  }
+
+  .list-04-li-price{
+
+  }
+
+
 
 
 

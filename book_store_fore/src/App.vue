@@ -2,10 +2,10 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-	<PageHeader></PageHeader>
+	  <PageHeader></PageHeader>
     <Select></Select>
     <Links></Links>
-	<router-view></router-view>
+	  <router-view></router-view>
     <PageTail></PageTail>
 
   </div>
@@ -48,12 +48,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  
 
+
+  height: 3000px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  background-color: #00ff33;
 
 
 }

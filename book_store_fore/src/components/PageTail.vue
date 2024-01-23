@@ -1,29 +1,29 @@
 <template>
 	<div class="tail">
 		<div class="tail-body">
-		
-		
+
+
 			<div class="eve-row-t">
-		
-		
+
+
 				<img alt="" src="@/../public/but_img1.webp">
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
 				<img alt="" src="@/../public/but_img2.webp">
-		
-		
-		
+
+
+
 				<img alt="" src="@/../public/but_img3.webp">
-		
-		
+
+
 				<img alt="" src="@/../public/but_img4.webp">
-		
-		
+
+
 			</div>
 			<div class="eve-row-m">
 				<div class="eve-row">
@@ -31,8 +31,8 @@
 						<div class="eve-component">
 							<div class="eve-text eve-component" data-comp-name="文字" data-comp-path="eevee/text">
 								<div class="text-content" style="line-height:26px;">
-		
-		
+
+
 									<p class=""><span
 											style="font-size: 18px; color: rgb(51, 51, 51); font-weight: bold;">购物指南</span>
 									</p>
@@ -53,8 +53,8 @@
 												href="https://help.xhsd.com/pub/articles/detail?id=7&amp;categoryIds=8"
 												target="_blank" rel="noopener noreferrer">联系客服</a></span>
 									</p>
-		
-		
+
+
 								</div>
 							</div>
 						</div>
@@ -63,8 +63,8 @@
 						<div class="eve-component">
 							<div class="eve-text eve-component" data-comp-name="文字" data-comp-path="eevee/text">
 								<div class="text-content" style="line-height:26px;">
-		
-		
+
+
 									<p class=""><span
 											style="color: rgb(51, 51, 51); font-size: 18px; font-weight: 700;">支付方式</span>
 									</p>
@@ -81,8 +81,8 @@
 												href="https://help.xhsd.com/pub/articles/detail?id=10&amp;categoryIds=12"
 												target="_blank" rel="noopener noreferrer">扫码付款</a></span>
 									</p>
-		
-		
+
+
 								</div>
 							</div>
 						</div>
@@ -91,9 +91,9 @@
 						<div class="eve-component">
 							<div class="eve-text eve-component" data-comp-name="文字" data-comp-path="eevee/text">
 								<div class="text-content" style="line-height:26px;">
-		
-		
-		
+
+
+
 									<p class=""><span
 											style="color: rgb(51, 51, 51); font-size: 18px; font-weight: 700;">配送方式</span>
 									</p>
@@ -109,9 +109,9 @@
 												href="https://help.xhsd.com/pub/articles/detail?id=13&amp;categoryIds=16"
 												target="_blank" rel="noopener noreferrer">订单说明</a></span>
 									</p>
-		
-		
-		
+
+
+
 								</div>
 							</div>
 						</div>
@@ -120,8 +120,8 @@
 						<div class="eve-component">
 							<div class="eve-text eve-component" data-comp-name="文字" data-comp-path="eevee/text">
 								<div class="text-content" style="line-height:26px;">
-		
-		
+
+
 									<p class=""><span
 											style="color: rgb(51, 51, 51); font-size: 18px; font-weight: 700;">售后服务</span>
 									</p>
@@ -137,8 +137,8 @@
 												href="https://help.xhsd.com/pub/articles/detail?id=16&amp;categoryIds=25"
 												target="_blank" rel="noopener noreferrer">退款时效</a></span>
 									</p>
-		
-		
+
+
 								</div>
 							</div>
 						</div>
@@ -147,24 +147,24 @@
 						<div class="eve-component">
 							<div class="eve-text eve-component" data-comp-name="文字" data-comp-path="eevee/text">
 								<div class="text-content" style="line-height:26px;">
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 									<p class=""><span
 											style="font-size: 18px; color: rgb(51, 51, 51); font-weight: bold;">新华服务</span>
 									</p>
@@ -181,23 +181,23 @@
 												href="http://cn.cnpubg.com/" target="_blank"
 												rel="noopener noreferrer">友情链接</a></span>
 									</p>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 								</div>
 							</div>
 						</div>
@@ -205,9 +205,9 @@
 				</div>
 			</div>
 			<div class="eve-row-b">
-		
+
 				<div class="text-content" style="text-align:center;line-height:26px;">
-		
+
 					<p class=""><span style="color: rgb(153, 153, 153);"><span style="font-weight: bold;" class=""><a
 									href="/api/converter/outer-url?target=http%3A%2F%2Fwww.beian.gov.cn%2Fportal%2FregisterSystemInfo%3Frecordcode%3D11010202007572"
 									target="_blank" rel="noopener noreferrer" style="">京公网安备 11010202007572号</a>&nbsp;丨<a
@@ -239,66 +239,66 @@
 							style="font-weight: bold; color: rgb(153, 153, 153);">注册地址：北京市西城区北礼士路135号39号楼1层101、2层201</span><span
 							style="color: rgb(153, 153, 153); font-weight: bold;"><br></span>
 					</p>
-		
+
 				</div>
 			</div>
-		
+
 			<div class="eve-row-b-1">
 				<div class="eve-col-cu" style="width:150px;">
 					<div class="eve-col-cu" style="width:150px;">
 						<div class="eve-component">
 							<div class="eve-text eve-component" data-comp-name="文字" data-comp-path="eevee/text">
 								<div class="text-content">
-		
+
 									<p><span style="color: rgb(153, 153, 153);"><a href="http://www.cyberpolice.cn/wfjb/"
 												target="_blank" rel="noopener noreferrer">
 												网络警察提示您</a></span></p>
-		
+
 								</div>
 							</div>
 						</div>
 					</div>
-		
+
 				</div>
 				<div class="eve-col-cu" style="width:150px;">
 					<div class="eve-col-cu" style="width:150px;">
 						<div class="eve-component">
 							<div class="eve-text eve-component" data-comp-name="文字" data-comp-path="eevee/text">
 								<div class="text-content">
-		
+
 									<p><span style="color: rgb(153, 153, 153);"><a href="http://www.12377.cn/"
 												target="_blank" rel="noopener noreferrer">
 												中国互联网举报中心</a></span></p>
-		
+
 								</div>
 							</div>
 						</div>
 					</div>
-		
+
 				</div>
 				<div class="eve-col-cu" style="width:150px;">
-		
+
 					<div class="eve-col-cu" style="width:150px;">
 						<div class="eve-component">
 							<div class="eve-text eve-component" data-comp-name="文字" data-comp-path="eevee/text">
 								<div class="text-content">
-		
-		
+
+
 									<p><a href="http://www.12377.cn/node_548446.htm" target="_blank"
 											rel="noopener noreferrer" style="color: rgb(153, 153, 153);">网络举报下载</a>
 									</p>
-		
-		
+
+
 								</div>
 							</div>
 						</div>
 					</div>
-		
+
 				</div>
 			</div>
-		
+
 		</div>
-	</div>
+</div>
 
 
 </template>
@@ -311,8 +311,6 @@
 	.tail{
 		width: 100%;
 		height: 520px;
-/* 		position: absolute;
-		bottom: 0px; */
 		background-color: #eaeaea;
 		display: flex;
 		flex-direction: row;
@@ -366,7 +364,7 @@
 		margin-left: 0px;
 		white-space: nowrap;
 		white-space-collapse: collapse;
-		text-wrap: nowrap;
+		/*text-wrap: nowrap;*/
 
 	}
 </style>

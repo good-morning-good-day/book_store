@@ -343,8 +343,32 @@
 
     </ul>
     <div id="list-05">
-
+      <span>共1528件</span>
+      <div id="list-05-selector">
+        <div id="list-05-selector-start">
+          <svg t="1706108201197" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4205" width="14" height="14">
+            <path d="M401.066667 512l302.933333 302.933333-59.733333 59.733334L341.333333 571.733333 281.6 512 341.333333 452.266667l302.933334-302.933334 59.733333 59.733334L401.066667 512z" fill="#2c2c2c" p-id="4206"></path>
+          </svg>
+        </div>
+        <ul>
+          <li><span>1</span></li>
+          <li><span>2</span></li>
+          <li><span>3</span></li>
+          <li><span>4</span></li>
+          <li><span>5</span></li>
+          <li><span>...</span></li>
+          <li><span>213</span></li>
+        </ul>
+        <div id="list-05-selector-end">
+          <svg t="1706108312364" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8236" width="14" height="14">
+            <path d="M558.933333 490.666667L384 665.6l59.733333 59.733333 234.666667-234.666666L443.733333 256 384 315.733333l174.933333 174.933334z" fill="#2c2c2c" p-id="8237"></path>
+          </svg>
+        </div>
+      </div>
+      <input type="text" />
+      <div id="list-05-go" >Go</div>
     </div>
+
   </div>
 </template>
 
@@ -388,7 +412,7 @@ export default {
 
   #list{
     width: 1200px;
-    height: 1800px;
+    /*height: 1800px;*/
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
@@ -701,17 +725,130 @@ export default {
     background-color: white;
     margin-top: 20px;
     width: 1200px;
-    height: 1200px;
+    height: 3360px;
     background-color: #C62E2D;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+    /*flex-wrap: wrap;*/
   }
+
+  .list-04-li{
+    width: 180px;
+    height: 280px;
+    background-color: #cccccc;
+    float: left;
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+
+
 
   .list-04-li-price{
 
   }
 
 
+  .list-04-li:hover {
+    box-shadow: 0px 0px 10px 5px darkgray;
+  }
 
+  #list-05{
+    width: 1200px;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  #list-05-selector{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid darkgray;
+    margin-left: 20px;
+    margin-right: 10px;
+    /*color: white;*/
+  }
 
+  #list-05-selector-start{
+    height: 30px;
+    width: 30px;
+    /*padding: 10px;*/
+    line-height: 30px;
+    /*width: 30px;*/
+    /*background-color: white;*/
+  }
+  #list-05-selector-end{
+    height: 30px;
+    width: 30px;
+    /*padding: 10px;*/
+    line-height: 30px;
+    /*width: 30px;*/
+    /*background-color: #C62E2D;*/
+    border-left: 1px solid darkgray;
+  }
+  /*#list-05-selector>div{*/
+  /* */
+
+  /*}*/
+
+  /*#list-05-selector>div>svg{*/
+  /*  margin: 10px;*/
+  /*}*/
+
+  #list-05-selector>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #list-05-selector>ul>li{
+    height: 30px;
+
+    line-height: 30px;
+    /*width: 30px;*/
+    /*background-color: green;*/
+    list-style: none;
+    border-left: 1px solid darkgray;
+  }
+
+  #list-05-selector>ul>li>span{
+    margin: 10px;
+  }
+  /*#list-05-selector>div>svg{*/
+  /*  color: white;*/
+  /*  background-color: #00ff33;*/
+  /*}*/
+  #list-05 > input{
+    outline-style: none;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+  }
+
+  #list-05-go{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid darkgray;
+    margin-left: 10px;
+  }
 
 
 

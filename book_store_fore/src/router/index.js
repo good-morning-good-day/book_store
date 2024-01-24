@@ -4,6 +4,7 @@ Vue.use(VueRouter);
 
 import Index from '@/pages/index'
 import List from '@/pages/list'
+import Detail from '@/pages/detail'
 
 
 export default new VueRouter({
@@ -20,6 +21,10 @@ export default new VueRouter({
 		{
 			path: "/list",
 			component: List,
+		},
+		{
+			path: "/detail",
+			component: Detail,
 		}
 		
 	]

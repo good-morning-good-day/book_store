@@ -18,6 +18,7 @@ import PageTail from '@/components/PageTail.vue'
 import Links from '@/components/Links.vue'
 import Select from "@/components/Select.vue";
 
+
 export default {
   name: 'App',
   components: {
@@ -50,12 +51,13 @@ export default {
   color: #2c3e50;
 
 
-  height: 3000px;
+  /*height: 3000px;*/
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #00ff33;
+  background-color: #F7F7F7;
+  -webkit-tap-highlight-color: transparent;
 
 
 }

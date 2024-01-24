@@ -292,7 +292,7 @@ export default {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #84685E;
   position: relative;
 
 }

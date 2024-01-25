@@ -10,60 +10,88 @@
 <!--    </div>-->
     <div id="detail-info">
       <div id="detail-info-top">
-        <img src="@/../public/detail-01.webp" />
+        <img src="@/../public/detail-02.webp" />
         <div id="detail-info-top-right">
-          <p>少年励志读书吧（全10册）</p>
-          <p><span>应急管理出版社</span> 编 <span>蔡景仙</span> 著</p>
-          <div >
+          <p style="font-size: 25px">少年励志读书吧（全10册）</p>
+<!--          margin-top: 20px;margin-bottom: 20px-->
+          <p style="font-size: 17px;"><span style="color: #1890FF;">应急管理出版社</span> 编 <span style="color: #1890FF;">蔡景仙</span> 著</p>
+<!--          <div >-->
 
-            <div>
-              <!--              https://assets-www.xinhuashudian.com/assets/images/other-images/item-detail/bar-sale-6bb760.png-->
-              <div>
-                <svg t="1706117873116" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="11842" width="15" height="15">
-                  <path d="M512 64C264.57 64 64 264.58 64 512s200.57 448 448 448c247.42 0 448-200.58 448-448-0.34-247.28-200.72-447.66-448-448z m0 803.31c-196.24 0-355.31-159.08-355.31-355.31S315.76 156.69 512 156.69c196.23 0 355.31 159.08 355.31 355.31-0.34 196.09-159.22 354.97-355.31 355.31z" p-id="11843"></path><path d="M512 295.72h-92.69v308.97h308.97V512H512z" p-id="11844"></path>
-                </svg>
-                <span>直降</span>
+            <div id="detail-countDown">
+              <div id="detail-countDown-t">
+                <div id="detail-countDown-t-l">
+                  <!--                <svg t="1706117873116" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="11842" width="30" height="30">-->
+                  <!--                  <path d="M512 64C264.57 64 64 264.58 64 512s200.57 448 448 448c247.42 0 448-200.58 448-448-0.34-247.28-200.72-447.66-448-448z m0 803.31c-196.24 0-355.31-159.08-355.31-355.31S315.76 156.69 512 156.69c196.23 0 355.31 159.08 355.31 355.31-0.34 196.09-159.22 354.97-355.31 355.31z" p-id="11843"></path><path d="M512 295.72h-92.69v308.97h308.97V512H512z" p-id="11844"></path>-->
+                  <!--                </svg>-->
+                  <svg t="1706193588546" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10659" width="30" height="30">
+                    <path d="M512.414 62.99c-247.824 0-449.424 201.6-449.424 449.424 0 247.842 201.592 449.424 449.424 449.424 247.842 0 449.424-201.582 449.424-449.424 0-247.824-201.582-449.424-449.424-449.424zM672.236 576.62h-191.574c-17.81-0.036-32.239-14.464-32.274-32.271v-255.441c0-0.016 0-0.035 0-0.053 0-17.695 14.345-32.040 32.040-32.040 0.020 0 0.037 0 0.057 0 0.016 0 0.037 0 0.060 0 17.695 0 32.040 14.345 32.040 32.040 0 0.020 0 0.037 0 0.057v223.673h159.822c0.019 0 0.041 0 0.063 0 17.695 0 32.040 14.345 32.040 32.040 0 0.022 0 0.044 0 0.067 0 17.771-14.499 31.928-32.274 31.928z" p-id="10660" fill="#ffffff"></path>
+                  </svg>
+                  <span>直降</span>
+                </div>
+                <div id="detail-countDown-t-r">
+                  <span>距离活动结束</span>
+                  <span style="margin-left: 5px;margin-right: 5px;">157天</span>
+                  <span style="background-color: black;width: 30px;height: 35px;line-height: 35px">23</span>
+                  <span style="margin-left: 5px;margin-right: 5px;">:</span>
+                  <span style="background-color: black;width: 30px;height: 35px;line-height: 35px">23</span>
+                  <span style="margin-left: 5px;margin-right: 5px;">:</span>
+                  <span style="background-color: black;width: 30px;height: 35px;line-height: 35px">23</span>
+                </div>
               </div>
-              <div>
-                <span>距离活动结束 157天</span>
-                <span>23</span>
-                <span>:</span>
-                <span>23</span>
-                <span>:</span>
-                <span>23</span>
+              <div id="detail-countDown-b">
+                <span style="width: 90px;height: 90px;line-height: 90px;font-size: 17px;">活动价</span>
+                <span  style="width: 90px;height: 90px;line-height: 90px;font-size: 25px;color: #C62E2D;font-weight: bold;">￥17.80 </span>
+                <span style="width: 90px;height: 90px;line-height: 90px;font-size: 17px;text-decoration: line-through;">￥158.00</span>
               </div>
-
-            </div>
-            <div >
-              <span>活动价</span>
-              <span>￥17.80 </span>
-              <span>￥158.00</span>
             </div>
 
+
+<!--          </div>-->
+          <div id="detail-address">
+            <div class="block">
+              <span class="demonstration" style="margin-right: 30px;">配送至</span>
+<!--              <span class="demonstration">默认 click 触发子菜单</span>-->
+              <el-cascader
+                  v-model="value"
+                  :options="options"
+                  @change="handleChange"></el-cascader>
+            </div>
+            <span>该地区有货</span>
           </div>
-          <div>
-            <span>配送至</span>
+          <div id="detail-num">
+            <span>数量</span>
+            <el-input-number v-model="num" @change="handleChange" :min="1" :max="10" label="描述文字"></el-input-number>
+          </div>
+          <div id="detail-check">
+            <div id="detail-check-car">加入购物车</div>
+            <div id="detail-check-pay">立即购买</div>
           </div>
         </div>
       </div>
       <div id="detail-info-bottom">
         <ul id="detail-info-bottom-t">
           <li>
-            <img src="" />
+            <img src="@/../public/detail-01.webp" />
+          </li>
+          <li>
+            <img src="@/../public/detail-01.webp" />
+          </li>
+          <li>
+            <img src="@/../public/detail-01.webp" />
           </li>
         </ul>
         <div id="detail-info-bottom-b">
           <div id="detail-info-bottom-b-share">
-            <svg t="1706112935250" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9649" width="14" height="14">
+            <svg t="1706112935250" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9649" width="15" height="15">
               <path d="M768.73106 703.537712c-35.606921 0-67.945574 14.793214-91.167479 38.359147l-309.109357-171.670082c9.116748-17.545439 14.621199-37.155048 14.621199-58.312783 0-12.55703-2.408198-24.426004-5.676466-35.950949l304.63699-189.215522c22.705863 20.469679 52.464304 33.198723 85.146985 33.198723 70.525785 0 127.978498-57.452713 127.978498-127.978498S837.708718 63.989249 767.182933 63.989249s-127.978498 57.452713-127.978498 127.978498c0 14.621199 2.92424 28.382328 7.396607 41.455401L344.716278 420.746514c-23.049891-22.705863-54.700487-36.983034-89.791366-36.983034-70.525785 0-127.978498 57.452713-127.978498 127.978498s57.452713 127.978498 127.978498 127.978498c25.630102 0 49.540064-7.740635 69.493701-20.813707l321.150344 178.378633c-3.096254 11.008903-5.160423 22.18982-5.160423 34.058794 0 70.525785 57.452713 127.978498 127.978498 127.978498s127.978498-57.452713 127.978498-127.978498S839.256845 703.537712 768.73106 703.537712zM767.182933 127.978498c35.262893 0 63.989249 28.726356 63.989249 63.989249s-28.726356 63.989249-63.989249 63.989249-63.989249-28.726356-63.989249-63.989249S731.92004 127.978498 767.182933 127.978498zM191.107677 511.913993c0-35.262893 28.726356-63.989249 63.989249-63.989249s63.989249 28.726356 63.989249 63.989249-28.726356 63.989249-63.989249 63.989249S191.107677 547.176886 191.107677 511.913993zM768.73106 895.505459c-35.262893 0-63.989249-28.726356-63.989249-63.989249s28.726356-63.989249 63.989249-63.989249 63.989249 28.726356 63.989249 63.989249C832.720309 866.951117 803.993953 895.505459 768.73106 895.505459z" fill="#515151" p-id="9650"></path>
             </svg>
-            <span>分享</span>
+            <span style="margin-left: 3px;">分享</span>
           </div>
           <div id="detail-info-bottom-b-collect">
-            <svg t="1706113022520" class="icon" viewBox="0 0 1088 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10718" width="14" height="14">
-              <path d="M553.472 3.2l1.984 0.192 1.92 0.384 1.92 0.512 1.856 0.576 1.792 0.768 1.728 0.832 1.664 1.024 1.6 1.088 1.472 1.216 1.472 1.28 1.28 1.472 1.28 1.472 1.152 1.6 1.024 1.728 0.896 1.792 129.792 280.192 0.896 1.728 0.96 1.664 1.088 1.664 1.216 1.536 1.28 1.472 1.344 1.344 1.472 1.28 1.536 1.216 1.664 1.088 1.664 1.024 1.728 0.896 1.792 0.768 1.856 0.64 1.856 0.512 1.92 0.448 1.92 0.256 306.56 36.864 1.984 0.32 1.92 0.448 1.92 0.576 1.792 0.704 1.792 0.832 1.664 0.96 1.664 1.088 1.536 1.152 1.408 1.28 1.344 1.408 1.28 1.472 1.152 1.6 1.088 1.6 0.896 1.728 0.832 1.856 0.704 1.856 0.512 1.92 0.448 1.984 0.256 1.92 0.128 1.984-0.064 1.92-0.128 1.92-0.256 1.92-0.448 1.92-0.576 1.856-0.64 1.792-0.832 1.792-0.96 1.664-1.024 1.664-1.216 1.6-1.28 1.472-1.408 1.408-226.368 210.048-1.408 1.344-1.28 1.472-1.216 1.536-1.088 1.6-1.024 1.664-0.832 1.792-0.832 1.792-0.64 1.792-0.512 1.92-0.448 1.856-0.32 1.984-0.192 1.92v1.92l0.064 1.984 0.192 1.92 0.32 1.92 59.648 302.976 0.32 1.984 0.192 1.984v1.984l-0.128 1.92-0.192 1.984-0.384 1.856-0.512 1.856-0.704 1.856-0.768 1.792-0.832 1.728-1.024 1.6-1.152 1.6-1.28 1.536-1.344 1.408-1.472 1.344-1.536 1.216-1.664 1.152-1.728 0.96-1.792 0.832-1.792 0.768-1.856 0.576-1.92 0.448-1.92 0.32-1.92 0.192h-1.92l-1.92-0.064-1.92-0.192-1.92-0.384-1.92-0.512-1.856-0.64-1.856-0.768-1.792-0.896-269.696-150.4-1.728-0.896-1.792-0.768-1.792-0.704-1.92-0.512-1.856-0.448-1.92-0.32-1.984-0.192-1.92-0.064-1.984 0.064-1.92 0.192-1.92 0.32-1.92 0.448-1.856 0.512-1.856 0.704-1.792 0.768-1.728 0.896-269.696 150.4-1.792 0.896-1.792 0.768-1.92 0.64-1.856 0.512-1.92 0.384-1.92 0.192-1.92 0.064h-1.984l-1.92-0.192-1.92-0.32-1.856-0.448-1.856-0.576-1.856-0.768-1.728-0.832-1.728-0.96-1.664-1.152-1.6-1.216-1.472-1.344-1.344-1.408-1.216-1.536-1.152-1.6-1.024-1.6L228.48 960l-0.768-1.792-0.64-1.856-0.512-1.856-0.384-1.856-0.256-1.984-0.128-1.92 0.064-1.984 0.128-1.984 0.32-1.984 59.712-302.976 0.32-1.92 0.192-1.92 0.064-1.984-0.064-1.92-0.192-1.92-0.256-1.984-0.448-1.856-0.576-1.92-0.64-1.792-0.768-1.792-0.896-1.792-1.024-1.664-1.088-1.6-1.152-1.536-1.344-1.472-1.408-1.344L50.368 401.344l-1.408-1.408-1.28-1.472-1.152-1.6-1.088-1.664-0.96-1.664-0.768-1.792-0.704-1.792-0.512-1.856-0.448-1.92-0.32-1.92-0.128-1.92v-1.92l0.128-1.984 0.256-1.92 0.384-1.984 0.576-1.92 0.64-1.856 0.832-1.856 0.96-1.728 1.024-1.6 1.152-1.6 1.28-1.472 1.344-1.408 1.472-1.28 1.536-1.152 1.6-1.088 1.728-0.96 1.728-0.832 1.856-0.704 1.856-0.576 1.92-0.448 1.984-0.32 306.624-36.864 1.92-0.256 1.92-0.448 1.856-0.512 1.856-0.64 1.792-0.768 1.728-0.896 1.664-1.024 1.6-1.088 1.536-1.216 1.472-1.28 1.408-1.344 1.28-1.472 1.152-1.536 1.088-1.664 1.024-1.664 0.896-1.728L526.464 19.136 527.36 17.344l1.024-1.728 1.152-1.6 1.216-1.472 1.344-1.472 1.408-1.28 1.536-1.216 1.6-1.088 1.664-1.024 1.728-0.832 1.792-0.768 1.856-0.576 1.856-0.512 1.984-0.384 1.92-0.192 2.048-0.064 1.984 0.064z m-99.2 323.904l-2.24 4.48-3.008 5.248-3.392 4.992-3.648 4.736-3.968 4.544-4.288 4.288-4.48 3.968-4.8 3.712-4.992 3.392-5.184 3.008-5.376 2.752-5.504 2.368-5.632 1.984-5.824 1.664-5.888 1.28-4.928 0.768-229.568 27.648 169.472 157.248 3.584 3.52 4.032 4.48 3.712 4.736 3.392 4.992 3.072 5.12 2.688 5.376 2.432 5.504 2.048 5.696 1.664 5.824 1.344 5.824 0.896 6.016 0.576 5.952 0.128 6.016-0.192 6.016-0.576 5.952-0.832 4.928-44.672 226.88L506.24 765.44l4.48-2.304 5.504-2.432 5.632-2.048 5.76-1.664 5.888-1.344 5.952-0.96 5.952-0.576 6.08-0.192 6.016 0.192 6.016 0.576 5.952 0.96 5.824 1.344 5.76 1.664 5.632 2.048 5.568 2.432 4.416 2.304 201.984 112.576-44.736-226.816-0.768-4.992-0.64-5.952-0.192-6.016 0.192-6.016 0.512-5.952 0.96-5.952 1.28-5.888 1.728-5.824 2.048-5.696 2.368-5.504 2.752-5.376 3.072-5.12 3.392-4.992 3.712-4.736 3.968-4.48 3.584-3.52 169.472-157.248-229.568-27.648-4.928-0.768-5.888-1.28-5.76-1.664-5.696-1.984-5.504-2.368-5.376-2.752-5.184-3.008-4.992-3.392-4.736-3.712-4.544-3.968-4.224-4.288-3.968-4.544-3.648-4.736-3.392-4.992-3.072-5.248-2.24-4.416-97.152-209.792-97.216 209.728z" fill="#515151" p-id="10719"></path>
+            <svg t="1706215766437" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="11861" width="15" height="15">
+              <path d="M171.712 571.648l0.352 0.32 287.904 252.8a64 64 0 0 0 82.912 1.344l296.832-244.544a215.584 215.584 0 1 0-301.824-300.576L512 316.672l-25.888-35.616a215.584 215.584 0 1 0-314.4 290.624zM32 407.584a279.584 279.584 0 0 1 480-194.944 279.584 279.584 0 0 1 480 194.944 278.144 278.144 0 0 1-113.024 224.512l-295.36 243.392a128 128 0 0 1-165.888-2.592L129.984 620.16A278.976 278.976 0 0 1 32 407.584z" fill="#C62E2D" p-id="11862"></path>
             </svg>
-            <span>收藏</span>
+            <span style="margin-left: 3px;">收藏宝贝</span>
           </div>
         </div>
       </div>
@@ -74,11 +102,55 @@
 <script>
 export default {
   name: "index",
+  data(){
+    return{
+      value: [],
+      num: 1,
+      options: [{
+        value: 'zhinan',
+        label: '指南',
+        children: [{
+          value: 'shejiyuanze',
+          label: '设计原则',
+          children: [{
+            value: 'yizhi',
+            label: '一致'
+          }, {
+            value: 'fankui',
+            label: '反馈'
+          }, {
+            value: 'xiaolv',
+            label: '效率'
+          }, {
+            value: 'kekong',
+            label: '可控'
+          }]
+        }, {
+          value: 'daohang',
+          label: '导航',
+          children: [{
+            value: 'cexiangdaohang',
+            label: '侧向导航'
+          }, {
+            value: 'dingbudaohang',
+            label: '顶部导航'
+          }]
+        }]
+      }
+      ]
+    }
+  },
   mounted() {
 
     console.log( document.getElementById("muti-items").style.visibility="hidden")
 
   },
+  methods:{
+    handleChange(value) {
+      console.log(value);
+    }
+  }
+
 }
 </script>
 
@@ -86,7 +158,7 @@ export default {
 
   #detail{
     width: 1200px;
-    height: 600px;
+    height: 700px;
     background-color: white;
   }
   #detail-class{
@@ -115,7 +187,7 @@ export default {
   #detail-info-top{
     width: 1160px;
     height: 410px;
-    background-color: #00ff33;
+    /*background-color: #00ff33;*/
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -129,8 +201,170 @@ export default {
   #detail-info-top-right{
     width: 700px;
     height: 400px;
-    background-color: yellow;
+    /*background-color: yellow;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  #detail-countDown{
+    width:700px;
+    /*height:140px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #detail-countDown-t{
+    background-image: url("@/../public/detail-bg.png");
+    width:700px;
+    height:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
+  #detail-countDown-t-l{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin-left: 20px;
+    color: white;
+  }
+
+  #detail-countDown-t-r{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin-right: 20px;
+    color: white;
+  }
+  #detail-countDown-b{
+    width:700px;
+    height:75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F7F5F1;
+  }
+
+  #detail-address{
+    width: 700px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #detail-address > span{
+    margin-left: 10px;
+  }
+
+  #detail-num{
+    width: 700px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #detail-num >span{
+    margin-left: 15px;
+    margin-right: 30px;
+  }
+
+  #detail-check{
+    width: 700px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #detail-check-car{
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #C62E2D;
+    margin-left: 20px;
+    line-height: 50px;
+    color: #C62E2D;
+  }
+  #detail-check-pay{
+    width: 160px;
+    height: 50px;
+    background-color: #C62E2D;
+    margin-left: 30px;
+    line-height: 50px;
+    color: white;
+  }
+
+  #detail-info-bottom{
+    width: 1180px;
+    height: 120px;
+    /*background-color: #00ff33;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  #detail-info-bottom-t{
+    width: 360px;
+    height: 67px;
+    /*background-color: #cccccc;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #detail-info-bottom-t > li{
+    width: 65px;
+    height: 65px;
+    border: 1px solid #C62E2D;
+    list-style: none;
+    margin-right: 10px;
+  }
+  #detail-info-bottom-b{
+    width: 360px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /*background-color: #ff6600;*/
+    margin-top: 5px;
+  }
+
+  #detail-info-bottom-b-share{
+    width: 70px;
+    height: 36px;
+    /*background-color: #42b983;*/
+    line-height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 36px;
+  }
+
+  #detail-info-bottom-b-collect{
+    width: 100px;
+    height: 36px;
+    /*background-color: #42b983;*/
+    line-height: 36px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
 </style>
